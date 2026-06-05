@@ -263,6 +263,15 @@ a:hover {
     color: var(--text);
 }
 
+.pub-title-link {
+    color: var(--text);
+    text-decoration: none;
+}
+.pub-title-link:hover {
+    color: var(--primary);
+    text-decoration: underline;
+}
+
 .pub-venue {
     color: var(--text-muted);
     font-style: italic;
